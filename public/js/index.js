@@ -67,7 +67,8 @@ $(document).ready(function () {
     if (!emit) {
       return;
     }
-
+    
+    // Stores canvas dimensions
     let w = canvas.width;
     let h = canvas.height;
 
